@@ -45,12 +45,12 @@ It’s designed to simplify and accelerate your configuration workflow — ideal
 
 2. Use the editor to **add fields**, including nested structures or Unity object references.
 
-3. **Create data files** and entries visually.  
-   <img width="1745" height="736" alt="Create Entries" src="https://github.com/user-attachments/assets/a0f1eb88-9395-4faf-9653-6feb115f2f72" />
+3. **Create data files** and entries visually.
+   <img width="1888" height="720" alt="Create Entries" src="https://github.com/user-attachments/assets/c7410846-a9eb-4b87-8620-bb1c361002b2" />
 
-4. **Auto-generate C# code** and final JSON data files.
+5. **Auto-generate C# code** and final JSON data files.
 
-5. At runtime, your game **automatically loads parsed JSON data** from the generated file.
+6. At runtime, your game **automatically loads parsed JSON data** from the generated file.
 
 ---
 
