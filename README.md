@@ -24,8 +24,8 @@ It’s designed to simplify and accelerate your configuration workflow — ideal
 
 ## 📸 Preview
 
-<img width="1747" height="751" alt="Editor Overview" src="https://github.com/user-attachments/assets/7addad9c-83ae-4de8-9c2c-5811c77309bb" />
-<img width="1742" height="742" alt="Field Editor" src="https://github.com/user-attachments/assets/553549bb-cb31-42c4-b3be-b83c9f8b36cc" />
+<img width="1919" height="1030" alt="Editor Overview" src="https://github.com/user-attachments/assets/9782a732-6598-4e7a-a64a-8df87c1d7da5" />
+
 <img width="1744" height="743" alt="External Reference Support" src="https://github.com/user-attachments/assets/04deff18-87d4-4889-9301-05fd87b0b058" />
 
 ---
