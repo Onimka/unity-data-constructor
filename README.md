@@ -41,7 +41,7 @@ It’s designed to simplify and accelerate your configuration workflow — ideal
 ## 🛠️ How It Works
 
 1. **Define your data structures** using serializable C# classes (including abstract bases or inherited types).  
-   <img width="1743" height="732" alt="Define Templates" src="https://github.com/user-attachments/assets/22e1ad2a-ff8d-4c2e-ae54-2ce0e0c78ddf" />
+  <img width="1899" height="958" alt="image" src="https://github.com/user-attachments/assets/6d42cd43-e709-4542-a3ae-b33a96cf90ac" />
 
 2. Use the editor to **add fields**, including nested structures or Unity object references.
 
