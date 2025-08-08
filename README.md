@@ -24,9 +24,9 @@ It’s designed to simplify and accelerate your configuration workflow — ideal
 
 ## 📸 Preview
 
-<img width="1919" height="1030" alt="Editor Overview" src="https://github.com/user-attachments/assets/9782a732-6598-4e7a-a64a-8df87c1d7da5" />
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/4677d1e1-ee3d-4143-8644-70c8b18b1fe4" />
 
-<img width="1744" height="743" alt="External Reference Support" src="https://github.com/user-attachments/assets/04deff18-87d4-4889-9301-05fd87b0b058" />
+<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/56b56375-7af8-4b87-885d-3c294822d966" />
 
 ---
 
@@ -46,7 +46,8 @@ It’s designed to simplify and accelerate your configuration workflow — ideal
 2. Use the editor to **add fields**, including nested structures or Unity object references.
 
 3. **Create data files** and entries visually.
-   <img width="1888" height="720" alt="Create Entries" src="https://github.com/user-attachments/assets/c7410846-a9eb-4b87-8620-bb1c361002b2" />
+   <img width="1919" height="982" alt="image" src="https://github.com/user-attachments/assets/f04e02b6-1077-41b8-9fdf-b43e9c898d06" />
+
 
 5. **Auto-generate C# code** and final JSON data files.
 
