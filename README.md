@@ -39,7 +39,7 @@ In Package Manager, click + button
 
 Select Add package from git URL...
 
-Enter: https://github.com/onimka/unity-data-constructor.git
+Enter: https://github.com/Onimka/UnityDataConstructor.git
 
 Click Add
 
