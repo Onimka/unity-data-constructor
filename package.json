@@ -1,7 +1,7 @@
 {
   "name": "com.onimka.dataconstructor",
   "displayName": "Data Constructor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2021.3",
   "description": "Powerful data construction and serialization tool for Unity. Easily create, manage, and serialize complex data structures in your projects.",
   "keywords": [
