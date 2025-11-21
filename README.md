@@ -7,15 +7,15 @@ It’s designed to simplify and accelerate your configuration workflow — ideal
 
 ✨ Features
 
-🧩 Template-based system for reusable data structures
-📋 List support with reorder and inline editing
-🧬 Full support for nested fields and complex types
-🧠 Works with abstract classes and inheritance hierarchies
-🧱 Supports all UnityEngine.Object-based types (e.g., Prefab, ScriptableObject, Texture, AudioClip)
-🔗 External field references across templates
-💾 Import/export with clean JSON serialization
-🖱️ Clean, scalable, and intuitive UI
-🧪 Seamless Unity Editor integration
+🧩 Template-based system for reusable data structures \n
+📋 List support with reorder and inline editing \n
+🧬 Full support for nested fields and complex types \n
+🧠 Works with abstract classes and inheritance hierarchies \n
+🧱 Supports all UnityEngine.Object-based types (e.g., Prefab, ScriptableObject, Texture, AudioClip) \n
+🔗 External field references across templates \n
+💾 Import/export with clean JSON serialization \n
+🖱️ Clean, scalable, and intuitive UI \n
+🧪 Seamless Unity Editor integration \n
 
 Install Addressables Package (Required Dependency):
 1. Open Window > Package Manager
