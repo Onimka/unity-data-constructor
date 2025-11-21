@@ -25,6 +25,7 @@ Install Addressables Package (Required Dependency):
 
 Install Data Constructor:
 1. Copy Plugin folder in Assets
+2. Runtime initialize - DataConstructor.Initializer.Init();
 
 
 ⚙️ Requirements:
