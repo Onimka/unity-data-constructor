@@ -19,15 +19,15 @@ It’s designed to simplify and accelerate your configuration workflow — ideal
 
 📦 Installation
 Install Addressables Package (Required Dependency):
-1.Open Window > Package Manager
-2.Switch to Unity Registry view
-3.Find Addressables and click Install
+1. Open Window > Package Manager
+2. Switch to Unity Registry view
+3. Find Addressables and click Install
 
 Install Data Constructor:
 1. Copy Plugin folder in Assets
 2. Runtime initialize - DataConstructor.Initializer.Init();
 3. Your Datas located in runtime DataConstrucrtor.DataManager.YOUR_DATA_NAME (Example: List<DataConstrucrtor.DataManager.ExampleClass> ExampleData)
-
+4. 
 
 ⚙️ Requirements:
 Unity 2021.3+ (LTS recommended)
