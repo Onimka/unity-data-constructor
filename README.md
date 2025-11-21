@@ -56,7 +56,7 @@ At runtime, your game automatically loads parsed JSON data from the generated fi
 
 Localization.
 <img width="2560" height="1020" alt="image" src="https://github.com/user-attachments/assets/72060d0e-6d82-4555-a207-f7e0dc124048" />
-Support localized string. Auto-translate with support local ollama and any services.
+Support localized string. Auto-translate with support local ollama and other services.
 
 Resources.
 <img width="2559" height="1033" alt="image" src="https://github.com/user-attachments/assets/c13cf51e-7bc1-44c5-9ae4-73b5fb37a4bd" />
