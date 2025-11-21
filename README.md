@@ -26,6 +26,7 @@ Install Data Constructor:
 1. Copy Plugin folder in Assets
 2. Runtime initialize - DataConstructor.Initializer.Init();
 3. Your Datas located in runtime DataConstrucrtor.DataManager.YOUR_DATA_NAME (Example: List<DataConstrucrtor.DataManager.ExampleClass> ExampleData)
+<img width="866" height="71" alt="image" src="https://github.com/user-attachments/assets/939da8a4-c8c0-4102-9baf-e160eb36f95e" />
 
 
 ⚙️ Requirements:
