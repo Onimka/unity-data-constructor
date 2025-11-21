@@ -24,6 +24,10 @@ Install Addressables Package (Required Dependency):
 3.Find Addressables and click Install
 
 Install Data Constructor:
+1. Copy Plugin folder in Assets
+   OR
+
+<broken> 
 1.In Package Manager, click + button
 2.Select Add package from git URL...
 3.Enter: https://github.com/Onimka/unity-data-constructor.git
