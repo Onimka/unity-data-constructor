@@ -15,6 +15,7 @@ It’s designed to simplify and accelerate your configuration workflow — ideal
 - Import/export with clean JSON serialization
 - Clean, scalable, and intuitive UI
 - Seamless Unity Editor integration
+- Team Development. Support Firebase Realtime Database for cloude database.
 
 Install Addressables Package (Required Dependency):
 1. Open Window > Package Manager
@@ -30,10 +31,6 @@ Install Data Constructor:
 ⚙️ Requirements:
 Unity 2021.3+ (LTS recommended)
 Addressables Package 1.21.0+
-.NET 4.x Runtime
-
-Team Development.
-Support Firebase Realtime Database for cloude database.
 
 📸 Preview
 <img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/4677d1e1-ee3d-4143-8644-70c8b18b1fe4" /> <img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/56b56375-7af8-4b87-885d-3c294822d966" />
