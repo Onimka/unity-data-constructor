@@ -62,30 +62,12 @@ Resources.
 <img width="2559" height="1033" alt="image" src="https://github.com/user-attachments/assets/c13cf51e-7bc1-44c5-9ae4-73b5fb37a4bd" />
 
 
-❓ Troubleshooting
-Addressables Not Found?
-
-Ensure you're using Unity 2021.3+
-
-Check Package Manager shows Addressables as "Installed"
-
-Restart Unity if issues persist
-
-Import Errors?
-
-Verify internet connection for Git URL installation
-
-Check Unity Console for specific error messages
-
-Ensure .NET 4.x Runtime is selected in Player Settings
-
-🚧 Roadmap
-
-🔍 Search and filtering
-✅ Field validation & constraints
-🌍 Localization-ready fields
-🧰 Preset templates & plugin architecture
-🎯 Drag-and-drop Unity assets
+🚧 Roadmap:
+- Search and filtering
+- Field validation & constraints
+- Localization-ready fields
+- Preset templates & plugin architecture
+- Drag-and-drop Unity assets
 
 🧑‍💻 License
 
