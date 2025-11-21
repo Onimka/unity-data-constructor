@@ -34,6 +34,9 @@ Unity 2021.3+ (LTS recommended)
 Addressables Package 1.21.0+
 .NET 4.x Runtime
 
+Team Development.
+Support Firebase Realtime Database for cloude database.
+
 📸 Preview
 <img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/4677d1e1-ee3d-4143-8644-70c8b18b1fe4" /> <img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/56b56375-7af8-4b87-885d-3c294822d966" />
 🛠️ How It Works
@@ -51,6 +54,14 @@ Create data files and entries visually.
 Auto-generate C# code and final JSON data files.
 
 At runtime, your game automatically loads parsed JSON data from the generated file.
+
+Localization.
+<img width="2560" height="1020" alt="image" src="https://github.com/user-attachments/assets/72060d0e-6d82-4555-a207-f7e0dc124048" />
+Support localized string. Auto-translate with support local ollama and any services.
+
+Resources.
+<img width="2559" height="1033" alt="image" src="https://github.com/user-attachments/assets/c13cf51e-7bc1-44c5-9ae4-73b5fb37a4bd" />
+
 
 ❓ Troubleshooting
 Addressables Not Found?
