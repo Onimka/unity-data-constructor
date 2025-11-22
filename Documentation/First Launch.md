@@ -41,15 +41,18 @@ DataConstructor.Initializer.Init();
 У вас будет несколько вкладок, пока нам нужны только: ** Templates ** и ** Data **
 
 ### 1. Первый Template ###
-Перейдите во вкладку Template
+
 <img width="1900" height="208" alt="image" src="https://github.com/user-attachments/assets/e31d3dd8-f963-47b0-8f83-647fca568cb8" />
-1.Найдите Create левой панели (там будут все ваши классы)
+Перейдите во вкладку Template
+
 <img width="1877" height="862" alt="image" src="https://github.com/user-attachments/assets/3e3fab61-3a76-449e-b27c-d32b72570382" />
+1.Найдите Create левой панели (там будут все ваши классы)
 2. После нажатия, вам откроется окно в котором вы можете заполнить данные, пока нам хватит только названия
 После создания вы можете открыть созданный вами ** Template **
+
 <img width="1918" height="895" alt="image" src="https://github.com/user-attachments/assets/3e8993f3-4643-4ec2-8e46-e9396bd94836" />
-1.нажмите ** Add Field **
-2.Заполните данные поля, выберите из списка списка тип поля, который вам нужен
+3.нажмите ** Add Field **
+4.Заполните данные поля, выберите из списка списка тип поля, который вам нужен
 Ваш ** Template ** создан.
 
 ### 2. Первый Data ###
