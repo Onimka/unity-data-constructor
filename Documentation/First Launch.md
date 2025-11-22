@@ -75,8 +75,8 @@ Go to the `Deploy` tab:
 
 1. `Deploy` generates classes and data from your created entries.  
 2. Click the button and wait until compilation finishes.  
-3. After that, your data becomes accessible in code
-   example:  
+3. After that, your data becomes accessible in code.
+    Example:  
 ```csharp
 IReadOnlyList<TestTemplate> testData = DataConstructor.DataManager.TestData;
 ```
