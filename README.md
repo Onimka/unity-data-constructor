@@ -7,8 +7,7 @@ It is designed to simplify and speed up the configuration workflow — perfect f
 
 ## 📖 Guide
 
-Full documentation and usage instructions are available in the **GUIDE**:
-[https://github.com/Onimka/unity-data-constructor/blob/main/Documentation/README.md](https://github.com/Onimka/unity-data-constructor/blob/main/Documentation/README.md)
+Full documentation and usage instructions are available in the [**GUIDE**](https://github.com/Onimka/unity-data-constructor/blob/main/Documentation/README.md)
 
 ## ✨ Features
 
