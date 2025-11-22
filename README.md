@@ -26,7 +26,6 @@
 1.  Скопируйте папку Plugin в Assets
 2.  Инициализация во время выполнения - DataConstructor.Initializer.Init();
 3.  Ваши данные находятся в runtime по адресу DataConstrucrtor.DataManager.ИМЯ_ВАШИХ_ДАННЫХ (Пример: List<DataConstrucrtor.DataManager.ExampleClass> ExampleData)
-<img width="866" height="71" alt="image" src="https://github.com/user-attachments/assets/939da8a4-c8c0-4102-9baf-e160eb36f95e" />
 
 **⚙️ Требования:**
 *   Unity 2021.3+ (рекомендуется LTS)
