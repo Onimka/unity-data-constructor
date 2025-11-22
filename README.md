@@ -1,77 +1,78 @@
 # Unity Data Constructor
 
-**Unity Data Constructor** — это мощное и гибкое расширение редактора Unity для визуального создания и управления структурированными игровыми данными.
-Оно разработано для упрощения и ускорения рабочего процесса конфигурации — идеально подходит как для дизайнеров, так и для разработчиков.
+**Unity Data Constructor** is a powerful and flexible Unity Editor extension for visually creating and managing structured game data.
+It is designed to simplify and speed up the configuration workflow — perfect for both designers and developers.
 
-⚠️ В настоящее время находится в активной разработке. Интерфейс, пользовательский опыт и функциональность могут изменяться.
+⚠️ Currently in active development. UI, UX, and functionality may change.
 
-## 📖 Гайд
-Полная документация и руководство по использованию доступны в [**ГАЙДЕ**](https://github.com/Onimka/unity-data-constructor/blob/main/Documentation/README.md)
+## 📖 Guide
 
-**✨ Возможности:**
-*   Система на основе шаблонов для повторного использования структур данных
-*   Поддержка списков с возможностью переупорядочивания и редактирования прямо в списке
-*   Полная поддержка вложенных полей и сложных типов
-*   Работа с абстрактными классами и иерархиями наследования
-*   Поддержка всех типов на основе UnityEngine.Object (например, Prefab, ScriptableObject, Texture, AudioClip)
-*   Внешние ссылки на поля между шаблонами
-*   Импорт/экспорт с использованием чистой JSON сериализации
-*   Чистый, масштабируемый и интуитивно понятный интерфейс
-*   Бесшовная интеграция с редактором Unity
-*   Для командной разработки. Поддержка Firebase Realtime Database в качестве облачной базы данных.
+Full documentation and usage instructions are available in the **GUIDE**:
+[https://github.com/Onimka/unity-data-constructor/blob/main/Documentation/README.md](https://github.com/Onimka/unity-data-constructor/blob/main/Documentation/README.md)
 
-**Установка пакета Addressables (Обязательная зависимость):**
-1.  Откройте Window > Package Manager
-2.  Переключитесь на представление Unity Registry
-3.  Найдите Addressables и нажмите Install
+## ✨ Features
 
-**Установка Data Constructor:**
-1.  Скопируйте папку Plugin в Assets
-2.  Инициализация во время выполнения - DataConstructor.Initializer.Init();
-3.  Ваши данные находятся в runtime по адресу DataConstrucrtor.DataManager.ИМЯ_ВАШИХ_ДАННЫХ (Пример: List<DataConstrucrtor.DataManager.ExampleClass> ExampleData)
+* Template-based system for reusable data structures
+* List support with reordering and inline editing
+* Full support for nested fields and complex types
+* Works with abstract classes and inheritance hierarchies
+* Supports all UnityEngine.Object-based types (e.g., Prefab, ScriptableObject, Texture, AudioClip)
+* External field references between templates
+* Import/export via clean JSON serialization
+* Clean, scalable, intuitive interface
+* Seamless Unity Editor integration
+* Team-friendly: supports Firebase Realtime Database as a cloud storage backend
 
-**⚙️ Требования:**
-*   Unity 2021.3+ (рекомендуется LTS)
-*   Пакет Addressables 1.21.0+
+## 📦 Addressables Installation (required)
 
-**Превью**
-<p align="left">
-  <img src="https://github.com/user-attachments/assets/4677d1e1-ee3d-4143-8644-70c8b18b1fe4" width="32%">
-  <img src="https://github.com/user-attachments/assets/56b56375-7af8-4b87-885d-3c294822d966" width="32%">
-  <img src="https://github.com/user-attachments/assets/f04e02b6-1077-41b8-9fdf-b43e9c898d06" width="32%">
-</p>
+1. Open **Window > Package Manager**
+2. Switch to **Unity Registry** view
+3. Find **Addressables** and click **Install**
 
+## 📥 Installing Data Constructor
 
-**Как это работает?**
-1.  Определите свои структуры данных с помощью сериализуемых C# классов (включая абстрактные базовые классы или унаследованные типы).
+1. Copy the **Plugin** folder into your **Assets**
+2. Initialize at runtime: `DataConstructor.Initializer.Init();`
+3. Access your runtime data via `DataConstructor.DataManager.YOUR_DATA_NAME`
 
-2.  Используйте редактор для добавления полей, включая вложенные структуры или ссылки на объекты Unity.
+   * Example: `List<DataConstructor.DataManager.ExampleClass> ExampleData`
 
-3.  Создавайте файлы данных и записи визуально.
+## ⚙️ Requirements
 
+* Unity 2021.3+ (LTS recommended)
+* Addressables 1.21.0+
 
-4.  Автоматически генерируйте C# код и итоговые JSON файлы данных.
+## 🖼️ Preview
 
-5.  Во время выполнения ваша игра автоматически загружает распарсенные JSON данные из сгенерированного файла.
+(Images not embedded in this document)
 
-**Локализация.**
-<img width="2560" height="1020" alt="image" src="https://github.com/user-attachments/assets/72060d0e-6d82-4555-a207-f7e0dc124048" />
-Поддержка локализованных строк. Автоматический перевод с поддержкой локального Ollama и других сервисов.
+## 🔧 How It Works
 
-**Ресурсы.**
-<img width="2559" height="1033" alt="image" src="https://github.com/user-attachments/assets/c13cf51e-7bc1-44c5-9ae4-73b5fb37a4bd" />
-Управление ресурсами, которые используются конструктором.
+1. Define your data structures with serializable C# classes (including abstract or inherited types).
+2. Use the editor to add fields, including nested structures or Unity object references.
+3. Create data files and entries visually.
+4. Automatically generate C# code and final JSON data files.
+5. At runtime, the game loads parsed JSON data from the generated file.
 
-🚧 Планы по развитию:
-*   Поиск и фильтрация
-*   Валидация полей и ограничения
-*   Доработка локализации
-*   Шаблоны настроек и архитектура плагинов
-*   Перетаскивание Addressables в окно редактора
+## 🌐 Localization
 
-🧑‍💻 Лицензия
+Supports localized strings. Includes automatic translation using local Ollama or external services.
 
-Этот инструмент можно бесплатно использовать в личных и коммерческих проектах Unity.
-Однако модификация, распространение или перепубликация исходного кода не допускаются.
+## 📁 Resources
 
-© 2025 Onimka. Все права защищены.
+Manage assets used by the constructor directly through the interface.
+
+## 🚧 Roadmap
+
+* Search and filtering
+* Field validation and constraints
+* Localization improvements
+* Settings templates and plugin architecture
+* Drag-and-drop of Addressables into the editor window
+
+## 🧑‍💻 License
+
+This tool is free to use in personal and commercial Unity projects.
+However, modifying, redistributing, or republishing the source code is not allowed.
+
+© 2025 Onimka. All rights reserved.
