@@ -40,8 +40,8 @@ DataConstructor.Initializer.Init();
 Запустится редактор, он автоматически создаст нужные ему папки
 У вас будет несколько вкладок, пока нам нужны только: `Templates` и `Data`
 
-### 1. Первый Template ###
 
+### 1. Первый Template ###
 <img width="1900" height="208" alt="image" src="https://github.com/user-attachments/assets/e31d3dd8-f963-47b0-8f83-647fca568cb8" />
 Перейдите во вкладку `Template`
 
@@ -53,7 +53,9 @@ DataConstructor.Initializer.Init();
 <img width="1918" height="895" alt="image" src="https://github.com/user-attachments/assets/3e8993f3-4643-4ec2-8e46-e9396bd94836" />
 3.нажмите `Add Field`
 4.Заполните данные поля, выберите из списка списка тип поля, который вам нужен
+
 Ваш `Template` создан.
+
 
 ### 2. Первый Data ###
    Перейдите во вкладку Data
@@ -65,11 +67,13 @@ DataConstructor.Initializer.Init();
    нажмите `Add Entry`, создастся экземпляр класа, вы можете его заполнить необходимыми данными.
    После сделанных изменений можете нажать `Save` или `Reset`.
 
+
 ### 3. Первый Deploy ###
    Перейдите во вкладку `Deploy`
    <img width="1897" height="624" alt="image" src="https://github.com/user-attachments/assets/62a30f6c-2b74-4671-bdfd-447246f8e3ff" />
 
    1. Deploy делает генерацию созданных данных и классов под них.
    2. Нажмите эту кнопку и дожитесь окончания компиляции
-   3. После этого у вас в коде появится доступ к вашим данным заполненным данным (пример:  IReadOnlyList<TestTemplate> testData = DataConstructor.DataManager.TestData;)
+   3. После этого у вас в коде появится доступ к вашим данным заполненным данным (пример:  IReadOnlyList<TestTemplate> testData = DataConstructor.DataManager.TestData;).
+      
 Вы прошли ознокомительный этап по работе с конструктором, остальную более детальную документацию я напишу в других разделах
