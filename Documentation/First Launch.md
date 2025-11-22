@@ -38,7 +38,7 @@ DataConstructor.Initializer.Init();
 Найди в вернем тул баре Data Constructor, затем нажмите Launch
 <img width="903" height="57" alt="image" src="https://github.com/user-attachments/assets/08e17ac6-c2b6-4b7a-b265-bf57a376f808" />
 Запустится редактор, он автоматически создаст нужные ему папки
-У вас будет несколько вкладок, пока нам нужны только: ** Templates ** и ** Data **
+У вас будет несколько вкладок, пока нам нужны только: **Templates** и **Data**
 
 ### 1. Первый Template ###
 
@@ -48,10 +48,10 @@ DataConstructor.Initializer.Init();
 <img width="1877" height="862" alt="image" src="https://github.com/user-attachments/assets/3e3fab61-3a76-449e-b27c-d32b72570382" />
 1.Найдите Create левой панели (там будут все ваши классы)
 2. После нажатия, вам откроется окно в котором вы можете заполнить данные, пока нам хватит только названия
-После создания вы можете открыть созданный вами ** Template **
+После создания вы можете открыть созданный вами **Template**
 
 <img width="1918" height="895" alt="image" src="https://github.com/user-attachments/assets/3e8993f3-4643-4ec2-8e46-e9396bd94836" />
-3.нажмите ** Add Field **
+3.нажмите **Add Field**
 4.Заполните данные поля, выберите из списка списка тип поля, который вам нужен
 Ваш ** Template ** создан.
 
@@ -63,7 +63,7 @@ DataConstructor.Initializer.Init();
    3. Найдите его в левой панели
     <img width="1894" height="550" alt="image" src="https://github.com/user-attachments/assets/7be7f1fb-8a6f-4fef-9938-e696eb0f08da" />
    нажмите ** Add Entry **, создастся экземпляр класа, вы можете его заполнить необходимыми данными.
-   После сделанных изменений можете нажать ** Save ** или ** Reset **.
+   После сделанных изменений можете нажать **Save** или **Reset**.
 
 ### 3. Первый Deploy ###
    Перейдите во вкладку Deploy
