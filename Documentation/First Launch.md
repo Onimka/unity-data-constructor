@@ -1,79 +1,83 @@
-## Предисловие
+## Preface
 
-Базовая информация о работе конструктора:
+Basic information about the Data Constructor:
 
-- Конструктор работает с JSON данными: Templates, Data, Localizations, Logs и другие
-- Поддерживает сохранение созданных данных:
-  - Локально (Assets/Data Constructor)
-  - Облачно (в настоящее время поддерживается только Firebase Realtime Database)
-- Ссылки на Unity ресурсы (изображения, звуки, модели и другие ресурсы проекта) хранятся в системном Scriptable Object для включения в билд
-- Управление ресурсами доступно во вкладке **Resources**
+- The constructor works with JSON data: Templates, Data, Localizations, Logs, and more.
+- Supports saving created data:
+  - Locally (Assets/Data Constructor)
+  - Cloud (currently only Firebase Realtime Database is supported)
+- References to Unity assets (images, sounds, models, and other project resources) are stored in a system Scriptable Object for inclusion in the build.
+- Asset management is available in the **Resources** tab.
 
-**Data** представляет собой список экземпляров, реализующих выбранный **Template**
-- Вы можете создавать неограниченное количество **Data** для любого **Template**
+**Data** represents a list of instances based on a chosen **Template**.  
+- You can create an unlimited number of **Data** instances for any **Template**.
 
-## Установка
+## Installation
 
-### Установка Addressables (обязательно)
+### Addressables Installation (required)
 
-1. Откройте `Window > Package Manager`
-2. Переключитесь на представление `Unity Registry`
-3. Найдите `Addressables` и нажмите `Install`
+1. Open `Window > Package Manager`.
+2. Switch to the `Unity Registry` view.
+3. Find `Addressables` and click `Install`.
 
-### Установка плагина
+### Plugin Installation
 
-Скопируйте папку `Plugin` в вашу папку `Assets`
+Copy the `Plugin` folder into your `Assets` folder.
 
-## Инициализация при запуске игры
+## Initialization on Game Start
 
-Для инициализации редактора в момент запуска игры вызовите:
+To initialize the editor at runtime, call:
 
 ```csharp
 DataConstructor.Initializer.Init();
 ```
-Там будут списке ваших данных, они будут иметь те же название что вы создавали в Data, и наследоваться от классов которые вы создавали в Template
+Your data lists will appear there, using the same names you created in `Data`, and they will inherit from the classes defined in your `Templates`.
 
+## First Launch
 
-## Первый запуск: ##
-Найди в вернем тул баре `Data Constructor`, затем нажмите `Launch`
+Find `Data Constructor` in the top toolbar and click `Launch`:  
 <img width="903" height="57" alt="image" src="https://github.com/user-attachments/assets/08e17ac6-c2b6-4b7a-b265-bf57a376f808" />
-Запустится редактор, он автоматически создаст нужные ему папки
-У вас будет несколько вкладок, пока нам нужны только: `Templates` и `Data`
 
+The editor will start and automatically create the required folders.  
+You will see several tabs; for now, we only need: `Templates` and `Data`.
 
-### 1. Первый Template ###
-   <img width="1900" height="208" alt="image" src="https://github.com/user-attachments/assets/e31d3dd8-f963-47b0-8f83-647fca568cb8" />
-   Перейдите во вкладку `Template`
+### 1. Creating the First Template
+<img width="1900" height="208" alt="image" src="https://github.com/user-attachments/assets/e31d3dd8-f963-47b0-8f83-647fca568cb8" />
 
-   <img width="1877" height="862" alt="image" src="https://github.com/user-attachments/assets/3e3fab61-3a76-449e-b27c-d32b72570382" />
-   1.Найдите `Create` левой панели (там будут все ваши классы)
-   2. После нажатия, вам откроется окно в котором вы можете заполнить данные, пока нам хватит только названия
-   После создания вы можете открыть созданный вами `Template`
+Go to the `Templates` tab:  
+<img width="1877" height="862" alt="image" src="https://github.com/user-attachments/assets/3e3fab61-3a76-449e-b27c-d32b72570382" />
 
-   <img width="1918" height="895" alt="image" src="https://github.com/user-attachments/assets/3e8993f3-4643-4ec2-8e46-e9396bd94836" />
-   3.нажмите `Add Field`
-   4.Заполните данные поля, выберите из списка списка тип поля, который вам нужен
+1. Find `Create` on the left panel (this contains all your classes).  
+2. Click it, and a window will open where you can fill in the data (for now, only the name is required).  
+3. After creation, open the `Template` you just created:  
+<img width="1918" height="895" alt="image" src="https://github.com/user-attachments/assets/3e8993f3-4643-4ec2-8e46-e9396bd94836" />
 
-   Ваш `Template` создан.
+4. Click `Add Field`.  
+5. Fill in the field data and select the desired field type from the list.
 
+Your **Template** is now created.
 
-### 2. Первый Data ###
-   Перейдите во вкладку Data
-   <img width="1892" height="859" alt="image" src="https://github.com/user-attachments/assets/f4d61e40-7936-4e62-9a6a-34222040efbd" />
-   1. нажмите `Create`
-   2. Заполните данные (выберите тот Template который вы создали)
-   3. Найдите его в левой панели
-    <img width="1894" height="550" alt="image" src="https://github.com/user-attachments/assets/7be7f1fb-8a6f-4fef-9938-e696eb0f08da" />
-   нажмите `Add Entry`, создастся экземпляр класа, вы можете его заполнить необходимыми данными.
-   После сделанных изменений можете нажать `Save` или `Reset`.
+### 2. Creating the First Data
+Go to the `Data` tab:  
+<img width="1892" height="859" alt="image" src="https://github.com/user-attachments/assets/f4d61e40-7936-4e62-9a6a-34222040efbd" />
 
+1. Click `Create`.  
+2. Fill in the data (select the Template you created).  
+3. Find it in the left panel:  
+<img width="1894" height="550" alt="image" src="https://github.com/user-attachments/assets/7be7f1fb-8a6f-4fef-9938-e696eb0f08da" />
 
-### 3. Первый Deploy ###
-   Перейдите во вкладку `Deploy`
-   <img width="1897" height="624" alt="image" src="https://github.com/user-attachments/assets/62a30f6c-2b74-4671-bdfd-447246f8e3ff" />
+4. Click `Add Entry` to create a class instance, which you can then fill with the required data.  
+5. After making changes, click `Save` or `Reset`.
 
-   1. Deploy делает генерацию созданных данных и классов под них.
-   2. Нажмите эту кнопку и дожитесь окончания компиляции
-   3. После этого у вас в коде появится доступ к вашим данным заполненным данным (пример:  IReadOnlyList<TestTemplate> testData = DataConstructor.DataManager.TestData;).
+### 3. First Deploy
+Go to the `Deploy` tab:  
+<img width="1897" height="624" alt="image" src="https://github.com/user-attachments/assets/62a30f6c-2b74-4671-bdfd-447246f8e3ff" />
+
+1. `Deploy` generates classes and data from your created entries.  
+2. Click the button and wait until compilation finishes.  
+3. After that, your data becomes accessible in code (example:  
+```csharp
+IReadOnlyList<TestTemplate> testData = DataConstructor.DataManager.TestData;
+```
       
-Вы прошли ознокомительный этап по работе с конструктором, остальную более детальную документацию я напишу в других разделах
+You have passed the chilling stage of working with the constructor, I will write the rest of the more detailed documentation in other sections.
