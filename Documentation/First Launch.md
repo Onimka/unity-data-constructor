@@ -1,31 +1,48 @@
-<img width="1894" height="550" alt="image" src="https://github.com/user-attachments/assets/89785a8e-8ee7-4911-81ff-847093a13185" />### Предисловие ###
+# Data Constructor - Документация
+
+## Предисловие
+
 Базовая информация о работе конструктора:
-* Конструктор работает на JSON данных: Templates, Data, Localizatins, Logs и так далее.
-* Он имеет поддержку сохранения созданных вами данных: локально (Assets/Data Costructor), облачно(на данный момент есть только поддержка Firebase Realtime database).
-* Ссылки на ваши юнити ресурсы(картинки, звуки модели и всё что лежит внутри папки проекта) хранятся в системном Scriptable Object, это сделано с целью того чтобы они попали в ваш билд, у вас так же усть возможность менежмента этих ресурсов во вкладке ** Resources **.
-** Data ** является списком, экзампляры которого реализуют выбранный ** Template **.
-* Вы можете создавать неограниченное кол-во ** Data ** на любой ** Template **.
-Поскольку я верду одиночкую разработку, есть много аспектов, которые я не могу проверить или успевать реализовать, мне хотело бы чтобы этот редактор помог разработчикам игр, и мне в том числе, сделать подход к работе с данными более легким.
 
-Installation:
-Addressables Installation (required)
-Open Window > Package Manager
-Switch to Unity Registry view
-Find Addressables and click Install
+- Конструктор работает с JSON данными: Templates, Data, Localizations, Logs и другие
+- Поддерживает сохранение созданных данных:
+  - Локально (Assets/Data Constructor)
+  - Облачно (в настоящее время поддерживается только Firebase Realtime Database)
+- Ссылки на Unity ресурсы (изображения, звуки, модели и другие ресурсы проекта) хранятся в системном Scriptable Object для включения в билд
+- Управление ресурсами доступно во вкладке **Resources**
 
-Copy the Plugin folder into your Assets
+**Data** представляет собой список экземпляров, реализующих выбранный **Template**
+- Вы можете создавать неограниченное количество **Data** для любого **Template**
 
-Инициализация при запуске игры:
-Чтобы инициализировать работу редактора в момент запуска вашей игры, вам нужно вызвать: DataConstructor.Initializer.Init();
+## Установка
+
+### Установка Addressables (обязательно)
+
+1. Откройте `Window > Package Manager`
+2. Переключитесь на представление `Unity Registry`
+3. Найдите `Addressables` и нажмите `Install`
+
+### Установка плагина
+
+Скопируйте папку `Plugin` в вашу папку `Assets`
+
+## Инициализация при запуске игры
+
+Для инициализации редактора в момент запуска игры вызовите:
+
+```csharp
+DataConstructor.Initializer.Init();
+```
 Там будут списке ваших данных, они будут иметь те же название что вы создавали в Data, и наследоваться от классов которые вы создавали в Template
 
-Первый запуск:
+
+## Первый запуск: ##
 Найди в вернем тул баре Data Constructor, затем нажмите Launch
 <img width="903" height="57" alt="image" src="https://github.com/user-attachments/assets/08e17ac6-c2b6-4b7a-b265-bf57a376f808" />
 Запустится редактор, он автоматически создаст нужные ему папки
 У вас будет несколько вкладок, пока нам нужны только: ** Templates ** и ** Data **
 
-1. Первый Template
+### 1. Первый Template ###
 Перейдите во вкладку Template
 <img width="1900" height="208" alt="image" src="https://github.com/user-attachments/assets/e31d3dd8-f963-47b0-8f83-647fca568cb8" />
 1.Найдите Create левой панели (там будут все ваши классы)
@@ -37,7 +54,7 @@ Copy the Plugin folder into your Assets
 2.Заполните данные поля, выберите из списка списка тип поля, который вам нужен
 Ваш ** Template ** создан.
 
-2. Первый Data
+### 2. Первый Data ###
    Перейдите во вкладку Data
    <img width="1892" height="859" alt="image" src="https://github.com/user-attachments/assets/f4d61e40-7936-4e62-9a6a-34222040efbd" />
    1. нажмите Create
@@ -47,7 +64,7 @@ Copy the Plugin folder into your Assets
    нажмите ** Add Entry **, создастся экземпляр класа, вы можете его заполнить необходимыми данными.
    После сделанных изменений можете нажать ** Save ** или ** Reset **.
 
-3. Первый Deploy
+### 3. Первый Deploy ###
    Перейдите во вкладку Deploy
    <img width="1897" height="624" alt="image" src="https://github.com/user-attachments/assets/62a30f6c-2b74-4671-bdfd-447246f8e3ff" />
 
