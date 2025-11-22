@@ -25,19 +25,8 @@ Full documentation and usage instructions are available in the [**GUIDE**](https
 ## 🖼️ Preview
 <p align="left"> <img src="https://github.com/user-attachments/assets/4677d1e1-ee3d-4143-8644-70c8b18b1fe4" width="32%"> <img src="https://github.com/user-attachments/assets/56b56375-7af8-4b87-885d-3c294822d966" width="32%"> <img src="https://github.com/user-attachments/assets/f04e02b6-1077-41b8-9fdf-b43e9c898d06" width="32%"> </p>
 
-## 📦 Addressables Installation (required)
-
-1. Open **Window > Package Manager**
-2. Switch to **Unity Registry** view
-3. Find **Addressables** and click **Install**
-
 ## 📥 Installing Data Constructor
-
-1. Copy the **Plugin** folder into your **Assets**
-2. Initialize at runtime: `DataConstructor.Initializer.Init();`
-3. Access your runtime data via `DataConstructor.DataManager.YOUR_DATA_NAME`
-
-   * Example: `List<DataConstructor.DataManager.ExampleClass> ExampleData`
+[**First Launch**](https://github.com/Onimka/unity-data-constructor/blob/main/Documentation/First%20Launch.md)
 
 ## ⚙️ Requirements
 
