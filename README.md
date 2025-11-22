@@ -43,7 +43,7 @@ Full documentation and usage instructions are available in the [**GUIDE**](https
 
 ## 🌐 Localization
 
-Supports localized strings. Includes automatic translation using local Ollama or external services.
+Supports localized strings. Includes automatic translation using: Google translate, DeepL, local Ollama or external services.
 
 ## 📁 Resources
 
