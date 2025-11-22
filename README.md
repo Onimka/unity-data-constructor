@@ -32,7 +32,12 @@
 *   Пакет Addressables 1.21.0+
 
 **Превью**
-<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/4677d1e1-ee3d-4143-8644-70c8b18b1fe4" /> <img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/56b56375-7af8-4b87-885d-3c294822d966" /> <img width="1919" height="982" alt="image" src="https://github.com/user-attachments/assets/f04e02b6-1077-41b8-9fdf-b43e9c898d06" />
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/4677d1e1-ee3d-4143-8644-70c8b18b1fe4" width="32%">
+  <img src="https://github.com/user-attachments/assets/56b56375-7af8-4b87-885d-3c294822d966" width="32%">
+  <img src="https://github.com/user-attachments/assets/f04e02b6-1077-41b8-9fdf-b43e9c898d06" width="32%">
+</p>
+
 
 **Как это работает?**
 1.  Определите свои структуры данных с помощью сериализуемых C# классов (включая абстрактные базовые классы или унаследованные типы).
