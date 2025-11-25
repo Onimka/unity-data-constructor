@@ -1,7 +1,7 @@
 # Unity Data Constructor
 
 **Unity Data Constructor** is a powerful and flexible Unity Editor extension for visually creating and managing structured game data.
-It is designed to simplify and speed up the configuration workflow — perfect for both designers and developers.
+It is designed to simplify and speed up the configuration workflow - perfect for both designers and developers.
 
 ⚠️ Currently in active development. UI, UX, and functionality may change.
 
