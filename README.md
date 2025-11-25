@@ -9,6 +9,9 @@ It is designed to simplify and speed up the configuration workflow — perfect f
 
 Full documentation and usage instructions are available in the [**GUIDE**](https://github.com/Onimka/unity-data-constructor/blob/main/Documentation/README.md)
 
+## Download 
+[**Releases**](https://github.com/Onimka/unity-data-constructor/releases)
+
 ## ✨ Features
 
 * Template-based system for reusable data structures
