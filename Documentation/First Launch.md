@@ -22,7 +22,7 @@ Basic information about the Data Constructor:
 
 ### Plugin Installation
 
-Copy the `Plugin` folder into your `Assets` folder.
+[**Download**](https://github.com/Onimka/unity-data-constructor/releases) last version.
 
 ## Initialization on Game Start
 
